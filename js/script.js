@@ -1,0 +1,1 @@
+const canvas = document.QuerySelector ('#canvas').getContext ('2d');
