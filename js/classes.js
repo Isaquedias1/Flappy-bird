@@ -51,4 +51,13 @@ class birdo extends obj{
         }
         this.py += this.velocidade
     }
+
+    limite(){
+        if (this.py >= 660){
+            this.py = 660
+        }
+        else if(this.py <= 0){
+            this.py = 0
+        }
+    }
 }

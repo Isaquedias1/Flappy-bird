@@ -27,6 +27,7 @@ function update(){
 
     bird.move()
     bird.animacao(8,4,'bird')
+    bird.limite()
 }
 
 function main(){
